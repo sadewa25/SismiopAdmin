@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "509319407748",
+    "firebase_url": "https://sismiopbangkalan.firebaseio.com",
+    "project_id": "sismiopbangkalan",
+    "storage_bucket": "sismiopbangkalan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509319407748:android:0c4a890aa8783f7e",
+        "android_client_info": {
+          "package_name": "dev.sadewawicak.creativesolusindo.sismiop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509319407748-u8vi7di4eohiepvtu48hi7kshn63m7gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.sadewawicak.creativesolusindo.sismiop",
+            "certificate_hash": "ed63d6a1f9a3471291268d3c97c05eee6914f471"
+          }
+        },
+        {
+          "client_id": "509319407748-kveao8m717pjrn6vjgem2c7lsh6fsfar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGmTBlFqdZCIBDVmeZkaiA1tMpd8c2StE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509319407748-kveao8m717pjrn6vjgem2c7lsh6fsfar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509319407748:android:76616f1205f0440f",
+        "android_client_info": {
+          "package_name": "dev.sadewawicak.creativesolusindo.sismiopadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509319407748-inlhsslsgpabi2is3siqe17po9tbdhfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.sadewawicak.creativesolusindo.sismiopadmin",
+            "certificate_hash": "3d7fb95defeb46daed55f0509ea242800ad58b3b"
+          }
+        },
+        {
+          "client_id": "509319407748-kveao8m717pjrn6vjgem2c7lsh6fsfar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGmTBlFqdZCIBDVmeZkaiA1tMpd8c2StE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509319407748-kveao8m717pjrn6vjgem2c7lsh6fsfar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

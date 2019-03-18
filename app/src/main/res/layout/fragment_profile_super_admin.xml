@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/size_small">
+
+    <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/size_medium"
+            android:layout_width="match_parent"
+            android:src="@drawable/ic_logo"
+            android:id="@+id/profile_logo"
+            android:layout_height="wrap_content"/>
+
+    <GridLayout
+            android:layout_below="@+id/profile_logo"
+            android:layout_column="2"
+            android:layout_row="4"
+            android:layout_marginTop="@dimen/size_medium"
+            android:layout_marginRight="@dimen/size_small"
+            android:layout_marginLeft="@dimen/size_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:padding="@dimen/size_supersmall"
+                android:src="@drawable/ic_nama_users"
+        />
+        <customfonts.MyRobotoTextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/profile_username"
+                android:text="@string/title_dashboard"
+                android:layout_height="wrap_content"
+        />
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowSpan="2"
+                android:layout_marginTop="@dimen/size_medium"
+                android:background="@drawable/bg_rounded"
+                android:text="@string/title_exit"
+                android:textColor="@android:color/white"
+                android:layout_column="0"
+                android:id="@+id/profile_logout"
+                android:layout_row="1"
+                android:layout_columnSpan="2"
+        />
+    </GridLayout>
+
+</RelativeLayout>

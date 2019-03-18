@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PBB</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="text_username">Username</string>
+    <string name="text_passsword">Password</string>
+    <string name="text_signin">Masuk</string>
+    <string name="message_failure">Failure :</string>
+    <string name="warning_username_password">Username/ Password Salah</string>
+    <string name="message_empty">Username/ Password Kosong</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_failure">Kesalahan :</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_wp">Jumlah WP</string>
+    <string name="title_sppt">Status Bayar</string>
+    <string name="title_exit">Logout</string>
+    <string name="title_total_sppt">TOTAL SPPT</string>
+    <string name="title_jumlah_sppt">JUMLAH SPPT</string>
+    <string name="title_total_wp">TOTAL WP</string>
+    <string name="title_jumlah_wp">JUMLAH WP</string>
+</resources>

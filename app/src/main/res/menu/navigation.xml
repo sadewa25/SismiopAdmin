@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/nav_sppt"
+            android:icon="@drawable/ic_sppt"
+            android:title="@string/title_sppt"/>
+
+    <item
+            android:id="@+id/nav_wp"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/title_wp"/>
+
+    <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle"
+            android:title="@string/title_profile"/>
+
+</menu>
