@@ -35,6 +35,9 @@ class JumlahWPSuperAdminFragment : Fragment(), AnkoLogger, JumlahWPSuperAdminVie
         dataJumlahWPBayar.add(totalwpbayar)
         dataJumlahWP.add(totalwp)
         info("${dataJumlahWP.size}")
+        if (loop == 0){
+            barChart.visibility = View.VISIBLE
+        }
         setData(dataJumlahWP,dataJumlahWPBayar,loop, dataKecamatan?.get(loop)?.nAMAKEC.toString())
         loop += 1
     }

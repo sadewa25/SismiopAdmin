@@ -7,6 +7,7 @@
 
     <com.github.mikephil.charting.charts.BarChart
             android:id="@+id/chart_wp"
+            android:visibility="invisible"
             android:layout_margin="@dimen/size_supersmall"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
@@ -14,7 +15,6 @@
     <ProgressBar
             android:layout_centerInParent="true"
             android:id="@+id/loading"
-            android:visibility="invisible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

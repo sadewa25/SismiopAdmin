@@ -32,6 +32,9 @@ class TotalWPSuperAdminFragment : Fragment(), TotalWPSuperAdminView, AnkoLogger{
         dataTotalWPBayar.add(totalwpbayar)
         dataTotalWP.add(totalwp)
         info("${dataTotalWP.size}")
+        if (loop == 0){
+            barChart.visibility = View.VISIBLE
+        }
         setData(dataTotalWP,dataTotalWPBayar,loop, dataKecamatan?.get(loop)?.nAMAKEC.toString())
         loop += 1
     }

@@ -38,6 +38,9 @@ class TotalSPPTSuperAdminSuperAdminFragment : Fragment(), TotalSPPTSuperAdminVie
         dataTotalSPPTBayar.add(totalspptbayar)
         dataTotalSPPT.add(totalsppt)
         info("${dataTotalSPPT.size}")
+        if (loop == 0){
+            barChart.visibility = View.VISIBLE
+        }
         setData(dataTotalSPPT,dataTotalSPPTBayar,loop, dataKecamatan?.get(loop)?.nAMAKEC.toString())
         loop += 1
     }
