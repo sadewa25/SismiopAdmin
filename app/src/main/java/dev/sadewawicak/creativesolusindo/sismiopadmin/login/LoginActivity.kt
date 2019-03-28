@@ -10,10 +10,9 @@ import dev.sadewawicak.creativesolusindo.sismiopadmin.R
 import dev.sadewawicak.creativesolusindo.sismiopadmin.client.APIResponse
 import dev.sadewawicak.creativesolusindo.sismiopadmin.model.DataModel
 import dev.sadewawicak.creativesolusindo.sismiopadmin.session.SessionManager
-import dev.sadewawicak.creativesolusindo.sismiopadmin.superadmin.MainActivitySuperAdmin
+import dev.sadewawicak.creativesolusindo.sismiopadmin.superadmin.topmenu.TopMenuActivity
 import kotlinx.android.synthetic.main.activity_login.*
 import org.jetbrains.anko.AnkoLogger
-import org.jetbrains.anko.info
 import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 
@@ -45,7 +44,7 @@ class LoginActivity : AppCompatActivity(), LoginView,AnkoLogger{
                     sessionManager.setUsername(data?.get(0)?.namaAdmin)
                     //idAdmin
                     sessionManager.setIDPetugas(data?.get(0)?.idAdmin.toString())
-                    startActivity<MainActivitySuperAdmin>()
+                    startActivity<TopMenuActivity>()
                 }
 
                 finish()
@@ -89,7 +88,7 @@ class LoginActivity : AppCompatActivity(), LoginView,AnkoLogger{
             if (!sessionManager.getKDKec().equals("0"))
                 startActivity<MainActivity>()
             else
-                startActivity<MainActivitySuperAdmin>()
+                startActivity<TopMenuActivity>()
 
             finish()
         }

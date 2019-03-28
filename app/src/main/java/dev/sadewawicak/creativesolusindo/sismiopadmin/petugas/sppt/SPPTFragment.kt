@@ -140,7 +140,6 @@ class SPPTFragment : Fragment(),SPPTView,AnkoLogger{
 
     override fun onResume() {
         super.onResume()
-        presenter.getTotalSPPT("3526${sessionManager.getKDKec()}${sessionManager.getKDKel()}")
     }
 
 }

@@ -35,7 +35,6 @@ class LoginPresenter (val context: Context, val view: LoginView, val client: API
 
             })
     }
-
     fun checkNotEmpty(username: String,password: String):Boolean{
         var check:Boolean = true
         if (username.isEmpty()||password.isEmpty()){
@@ -44,6 +43,5 @@ class LoginPresenter (val context: Context, val view: LoginView, val client: API
         }
         return check
     }
-
 
 }

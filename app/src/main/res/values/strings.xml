@@ -21,4 +21,9 @@
     <string name="title_jumlah_sppt">JUMLAH SPPT</string>
     <string name="title_total_wp">TOTAL WP</string>
     <string name="title_jumlah_wp">JUMLAH WP</string>
+    <string name="title_menu">Halaman Beranda</string>
+    <string name="title_pbb">PBB</string>
+    <string name="title_bphtb">BPHTB</string>
+    <string name="title_penerimaan_bphtb">Penerimaan</string>
+    <string name="title_status_wp">Status WP</string>
 </resources>

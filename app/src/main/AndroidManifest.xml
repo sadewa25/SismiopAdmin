@@ -11,6 +11,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".superadmin.topmenu.ProfileActivity">
+        </activity>
+        <activity android:name=".superadmin.bphtb.MainBPHTBSuperAdminActivity">
+        </activity>
+        <activity android:name=".superadmin.topmenu.TopMenuActivity">
+        </activity>
         <activity
                 android:name=".login.LoginActivity"
                 android:label="@string/app_name">
@@ -21,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".petugas.MainActivity"/>
-        <activity android:name=".superadmin.MainActivitySuperAdmin">
+        <activity android:name=".superadmin.pbb.MainActivitySuperAdmin">
         </activity>
     </application>
 

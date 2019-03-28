@@ -141,7 +141,6 @@ class WPFragment : Fragment(),WPView, AnkoLogger{
 
     override fun onResume() {
         super.onResume()
-        presenter.getTotalWP("3526${sessionManager.getKDKec()}${sessionManager.getKDKel()}")
     }
 
 }

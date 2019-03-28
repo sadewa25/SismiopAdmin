@@ -5,6 +5,9 @@ import com.google.gson.annotations.SerializedName
 
 data class DataModel(
 
+	val itemImg:Int = 0,
+	val itemText:String="",
+
 	@field:SerializedName("KD_DATI2")
 	val kDDATI2: String? = null,
 

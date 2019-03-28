@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/nav_realisasi_penerimaan"
+            android:icon="@drawable/ic_sppt"
+            android:title="@string/title_penerimaan_bphtb"/>
+
+    <item
+            android:id="@+id/nav_jumlah_wp"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/title_jumlah_wp"/>
+
+    <item
+            android:id="@+id/nav_status_wp"
+            android:icon="@drawable/ic_status_wp"
+            android:title="@string/title_status_wp"/>
+
+</menu>
